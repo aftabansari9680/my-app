@@ -24,11 +24,11 @@ const Login = () => {
         >
           <button
             onClick={onBtn}
-            className="border border-white p-2 px-9 text-white rounded-3xl "
+            className="border border-white p-2 px-9 font-bold text-white rounded-3xl "
           >
-            click
+            Click
           </button>
-          <h1 className="text-4xl text-white">Hello World</h1>
+          <h1 className="text-4xl text-white font-Sevillana">Hello World</h1>
         </div>
 
         <div
@@ -38,11 +38,11 @@ const Login = () => {
         >
           <button
             onClick={onBtn}
-            className="border border-white p-2 px-9 text-white rounded-3xl "
+            className="border border-white p-2 px-9 font-bold text-white rounded-3xl "
           >
-            click
+            Click
           </button>
-          <h1 className="text-4xl text-white">Hello World</h1>
+          <h1 className="text-4xl text-white font-Sevillana">Hello World</h1>
         </div>
 
         <div
@@ -50,11 +50,11 @@ const Login = () => {
             move ? "-translate-x-full opacity-0" : ""
           } z-20 flex flex-col gap-5 items-center absolute right-44 transition-all duration-1000`}
         >
-          <h1 className="text-4xl">Hi Coder</h1>
+          <h1 className="text-4xl font-poppins">Hi Coder</h1>
           <p>Join Me With Click Button</p>
           <button
             onClick={onBtn}
-            className="border border-white p-2 px-9 bg-red-600 text-white rounded-3xl"
+            className="border border-white p-2 px-9 bg-[#0a0a39] text-white rounded-3xl"
           >
             click
           </button>
@@ -80,7 +80,7 @@ const Login = () => {
           <p className="text-gray-400">Forgot Your Password </p>
           <button
             onClick={onBtn}
-            className="border border-white p-2 px-9 bg-red-600 text-white rounded-3xl"
+            className="border border-white p-2 px-9 bg-[#0a0a39] text-white rounded-3xl"
           >
             click
           </button>
